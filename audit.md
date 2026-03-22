@@ -43,7 +43,9 @@ $ARGUMENTS
 3. Identifie les forces principales (max 3).
 4. Identifie les faiblesses avec actions correctives.
 5. Propose un plan d'amélioration priorisé et implémentable.
-6. Si tu n'es pas sûr d'un point, signale-le plutôt que deviner.
+6. Implémente toutes les améliorations et génère le skill corrigé complet.
+7. Affiche le skill amélioré dans un bloc markdown prêt à copier.
+8. Si tu n'es pas sûr d'un point, signale-le plutôt que deviner.
 </instructions>
 
 <format_sortie>
@@ -70,5 +72,10 @@ $ARGUMENTS
 | Priorité | Action | Effort (S/M/L) | Résultat attendu |
 |----------|--------|-----------------|------------------|
 | 1 | ... | ... | ... |
+
+### Skill amélioré
+```markdown
+[Skill complet corrigé, prêt à copier-coller]
+```
 </format_sortie>
 ```
